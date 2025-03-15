@@ -49,7 +49,7 @@ Relatório gerado com sucesso: relatorio.txt
 ```plaintext
 ├── README.md
 ├── main.py
-└── relatorio.txt  # Gerado após a execução do script
+└── relatorio/ 
 ```
 
 ## Contribuições
