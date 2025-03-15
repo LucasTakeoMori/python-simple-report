@@ -29,7 +29,7 @@ def gerar_relatorio(dados, formato='txt'):
             arquivo.write("=================\n")
             arquivo.write(f"Total de Itens: {len(dados)}\n")
         print("Relatório gerado com sucesso: relatorios/relatorio.txt")
-    elif formato == 'csv':
+    if formato == 'csv':
         with open('relatorios/relatorio.csv', 'w') as arquivo:
             arquivo.write("Item,Quantidade\n")
             for dado in dados:
